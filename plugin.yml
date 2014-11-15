@@ -1,0 +1,49 @@
+name: CraftNetwork
+authors: [maltesermailo, Nightloewe]
+main: de.maltesermailo.OpMessage.Core
+version: 1.3.1
+commands: 
+
+  craft:
+    description: Info
+  hilfe:
+    description: Open the Help
+  cc:
+    description: Clears the Chat
+  feed:
+    description: Cookies!
+  fly:
+    description: Flymode for Premiums!
+    aliases: [flyspeed]
+  ban:
+    description: Ban command
+    aliases: [isbanned, unban]
+  kill:
+    description: Kill Command
+  spawn:
+    description: Spawn Command
+    usage: /spawn
+  setspawn:
+    description: Set-Spawn Command
+    usage: /setspawn
+  gc:
+    description: Garbage Collector Command
+  vanish:
+    description: Vanish Command
+  sign:
+    description: Sign Command
+  kopf:
+    description: Give you an head
+  shutdown:
+    description: Gives an Message for 2 Minutes and Shutdown!
+  msg:
+    description: Message to other Player(private)
+  chat:
+    description: Chat Command
+    aliases: [chatmanager, chatmanage]
+  afk:
+    description: AFK Command
+  lightning:
+    description: :D
+  donotuse:
+    description: Craft Network only!
