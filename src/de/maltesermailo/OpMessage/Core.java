@@ -1,3 +1,16 @@
+/* Read LICENSE */
+
+
+
+
+
+
+
+
+
+
+
+
 package de.maltesermailo.OpMessage;
 
 import java.io.File;
@@ -15,7 +28,7 @@ public class Core extends JavaPlugin {
 	private int messageTask;
 	public File file = new File("plugins/CraftNetwork/codes.yml");
 	public FileConfiguration cfg = YamlConfiguration.loadConfiguration(file);
-	public static String prefix = "ง7[ง4!ง7]: ";
+	public static String prefix = "ยง7[ยง4!ยง7]: ";
 	public boolean chatEnabled = true;
 
 	public void onEnable() {
@@ -65,22 +78,22 @@ public class Core extends JavaPlugin {
 	    		"In the config.yml under hilfebefehl.hilfetext must be more lines for the help. Please contact an administrator if you are an Player"
 	    });
 		this.getConfig().addDefault("opmessage.op.playerthereop", new String[] {
-	    		"ง6Opped"
+	    		"ยง6Opped"
 	    });
 		this.getConfig().addDefault("opmessage.op.playertherenotop", new String[] {
-	    		"ง4You are now OP"
+	    		"ยง4You are now OP"
 	    });
 		this.getConfig().addDefault("opmessage.op.playerthereopsuffix", new String[] {
 	    		""
 	    });
 		this.getConfig().addDefault("opmessage.deop.playerthereopsuffix", new String[] {
-	    		"ง6are no longer OP"
+	    		"ยง6are no longer OP"
 	    });
 		this.getConfig().addDefault("opmessage.deop.playerthereop", new String[] {
-	    		"ง6"
+	    		"ยง6"
 	    });
 		this.getConfig().addDefault("opmessage.deop.playertherenotop", new String[] {
-	    		"ง4You are no longer OP"
+	    		"ยง4You are no longer OP"
 	    });
 		this.getConfig().addDefault("useless", new String[] {
 	    		" "
